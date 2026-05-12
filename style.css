@@ -1,3 +1,18 @@
+/* ================== General Styles ================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --teal: #59b292;
+  --yellow: #ffc94d;
+  --beige: #fae7cb;
+  --pink: #fa6781;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -16,4 +31,24 @@ body {
   max-width: 20rem;
   height: 4.5rem;
   font-size: 1.4rem;
+}
+
+/* ====================== Utils ====================== */
+
+/* Background Colors */
+.bg-teal {
+  background-color: var(--teal);
+  color: #fff;
+}
+.bg-yellow {
+  background-color: var(--yellow);
+  color: #fff;
+}
+.bg-beige {
+  background-color: var(--beige);
+  color: #fff;
+}
+.bg-pink {
+  background-color: var(--pink);
+  color: #fff;
 }
