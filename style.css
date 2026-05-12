@@ -19,9 +19,27 @@
 }
 
 .navbar form .form-control {
-  max-width: 20rem;
-  height: 4.5rem;
-  font-size: 1.4rem;
+  height: 2rem;
+}
+
+@media (max-width: 768px) {
+  .navbar form .form-control {
+    max-width: 8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar form .form-control {
+    max-width: none;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .navbar form .form-control {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
 }
 
 /* ====================== Utils ====================== */
