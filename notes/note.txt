@@ -1,7 +1,5 @@
+index.html / 1. Alternatif Pics:
 <img src="https://picsum.photos/id/7/200/300" alt="">
 <img src="https://picsum.photos/id/10/200/300" alt="">
 <img src="https://picsum.photos/id/20/200/300" alt="">
 <img src="https://picsum.photos/id/11/200/300" alt="">
-<img src="https://picsum.photos/id/74/200/300" alt="">
-<img src="https://picsum.photos/id/57/200/300" alt="">
-<img src="https://picsum.photos/id/91/200/300" alt="">

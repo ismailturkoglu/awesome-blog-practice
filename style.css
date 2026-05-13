@@ -58,6 +58,13 @@
   transform: scale(1.1);
 }
 
+/* main  */
+main .container .row .card img {
+  max-height: 8rem;
+  object-fit: cover;
+  object-position: center;
+}
+
 /* md */
 @media (max-width: 768px) {
   /* navbar */
@@ -78,10 +85,9 @@
   }
 
   /* main  */
-  main .container .card {
-    max-width: 15rem;
-    min-width: 10rem;
-    height: auto;
+  main .container .row .card img {
+    max-height: 15rem;
+    object-fit: cover;
   }
 }
 
@@ -90,5 +96,10 @@
   .navbar form .form-control {
     font-size: 0.6rem;
     padding: 0.5rem;
+  }
+
+  /* main  */
+  main .container .row {
+    min-width: 16rem;
   }
 }
