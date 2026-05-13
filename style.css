@@ -1,3 +1,23 @@
+/* ====================== Utils ====================== */
+
+/* Background Colors */
+.bg-teal {
+  background-color: var(--teal);
+  color: #fff;
+}
+.bg-yellow {
+  background-color: var(--yellow);
+  color: #fff;
+}
+.bg-beige {
+  background-color: var(--beige);
+  color: #000;
+}
+.bg-pink {
+  background-color: var(--pink);
+  color: #fff;
+}
+
 /* ================== General Styles ================= */
 
 * {
@@ -38,6 +58,7 @@
   transform: scale(1.1);
 }
 
+/* md */
 @media (max-width: 768px) {
   /* navbar */
   .navbar form .form-control {
@@ -45,6 +66,7 @@
   }
 }
 
+/* sm */
 @media (max-width: 576px) {
   /* navbar */
   .navbar {
@@ -54,6 +76,13 @@
     max-width: none;
     font-size: 0.8rem;
   }
+
+  /* main  */
+  main .container .card {
+    max-width: 15rem;
+    min-width: 10rem;
+    height: auto;
+  }
 }
 
 @media (max-width: 300px) {
@@ -62,24 +91,4 @@
     font-size: 0.6rem;
     padding: 0.5rem;
   }
-}
-
-/* ====================== Utils ====================== */
-
-/* Background Colors */
-.bg-teal {
-  background-color: var(--teal);
-  color: #fff;
-}
-.bg-yellow {
-  background-color: var(--yellow);
-  color: #fff;
-}
-.bg-beige {
-  background-color: var(--beige);
-  color: #000;
-}
-.bg-pink {
-  background-color: var(--pink);
-  color: #fff;
 }
