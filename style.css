@@ -26,6 +26,10 @@
   box-sizing: border-box;
 }
 
+#main--blogs {
+  height: 90vh;
+}
+
 :root {
   --teal: #59b292;
   --yellow: #ffc94d;
