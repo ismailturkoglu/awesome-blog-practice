@@ -70,7 +70,7 @@ main .container .row .card img {
 /* BLOGS */
 
 #main--blogs {
-  height: 90.5vh;
+  height: 110vh;
 }
 
 #section-2 .card {
@@ -87,7 +87,7 @@ main .container .row .card img {
 /* CONTACT */
 
 #main--contact {
-  height: 91.5vh;
+  height: 86vh;
 }
 
 #main--contact iframe {
