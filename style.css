@@ -26,10 +26,6 @@
   box-sizing: border-box;
 }
 
-#main--blogs {
-  height: 90.5vh;
-}
-
 :root {
   --teal: #59b292;
   --yellow: #ffc94d;
@@ -73,6 +69,10 @@ main .container .row .card img {
 
 /* BLOGS */
 
+#main--blogs {
+  height: 90.5vh;
+}
+
 #section-2 .card {
   min-width: 40rem;
 }
@@ -82,6 +82,17 @@ main .container .row .card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* CONTACT */
+
+#main--contact {
+  height: 91.5vh;
+}
+
+#main--contact iframe {
+  width: 100%;
+  height: 100%;
 }
 
 /* ================ Responsive Design ================ */
