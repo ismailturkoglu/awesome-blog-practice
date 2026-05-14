@@ -87,7 +87,7 @@ main .container .row .card img {
 /* CONTACT */
 
 #main--contact {
-  height: 86vh;
+  height: 87vh;
 }
 
 #main--contact iframe {
@@ -96,6 +96,17 @@ main .container .row .card img {
 }
 
 /* ================ Responsive Design ================ */
+
+/* lg */
+@media (max-width: 992px) {
+  #main--contact {
+    height: auto;
+  }
+
+  #main--contact iframe {
+    height: 450px;
+  }
+}
 
 /* md */
 @media (max-width: 768px) {
