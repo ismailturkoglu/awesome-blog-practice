@@ -30,45 +30,6 @@ https://ismailturkoglu.github.io/awesome-blog-practice/
 
 ---
 
-## Pages
-
-### Home Page
-- Hero section
-- Featured blog cards
-- Responsive grid layout
-
-### Blogs Page
-- Category sidebar
-- Horizontal blog cards
-- Pagination
-
-### Contact Page
-- Contact form
-- Google Maps embed
-- Responsive layout
-
----
-
-## Project Structure
-
-```bash
-project-folder/
-│
-├── index.html
-├── blogs.html
-├── contact.html
-├── style.css
-│
-├── img/
-│   ├── logo.png
-│   ├── bg.png
-│   ├── img-1.jpg
-│   ├── img-2.jpg
-│   └── ...
-```
-
----
-
 ## Responsive Breakpoints
 
 | Breakpoint | Screen Size |
@@ -91,22 +52,6 @@ project-folder/
 .bg-pink
 ```
 
----
-
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone <repository-url>
-```
-
-2. Open the project folder.
-
-3. Run `index.html` in your browser.
-
----
-
 ## CDN Links
 
 ### Bootstrap 5.3
@@ -120,28 +65,6 @@ git clone <repository-url>
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
 ```
-
----
-
-## Responsive Design Notes
-
-- Uses `rem` units for responsive typography
-- Navbar adapts on mobile devices
-- Responsive blog card layouts
-- Images use `object-fit: cover`
-
----
-
-## Future Improvements
-
-- Dark mode
-- Backend integration
-- Dynamic blog system
-- Authentication system
-- Improved accessibility
-- Additional animations
-
----
 
 ## Author
 
