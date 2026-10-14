@@ -68,4 +68,6 @@ https://ismailturkoglu.github.io/awesome-blog-practice/
 
 ## Author
 
-Developed by İsmail Türkoğlu.
+**İsmail Türkoğlu**
+
+- GitHub: [@ismailturkoglu](https://github.com/ismailturkoglu)
